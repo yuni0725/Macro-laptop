@@ -5,13 +5,13 @@ def login(driver):
 #id
     id_box = driver.find_element(By.CSS_SELECTOR, 'body > table:nth-child(3) > tbody > tr > td > table > tbody > tr > td > table:nth-child(4) > tbody > tr:nth-child(2) > td > table > tbody > tr > td > table > tbody > tr > td > table > tbody > tr:nth-child(2) > td > form > table > tbody > tr:nth-child(2) > td:nth-child(2) > input[type=text]')
 
-    id_box.send_keys("10904")
+    id_box.send_keys("STUDENT_ID") #STUDENT_ID
     id_box.send_keys(Keys.TAB)
 
 #password
     password_box = driver.find_element(By.CSS_SELECTOR, 'body > table:nth-child(3) > tbody > tr > td > table > tbody > tr > td > table:nth-child(4) > tbody > tr:nth-child(2) > td > table > tbody > tr > td > table > tbody > tr > td > table > tbody > tr:nth-child(2) > td > form > table > tbody > tr:nth-child(3) > td:nth-child(2) > input[type=password]')
 
-    password_box.send_keys("0725")
+    password_box.send_keys("PASSWORD") #PASSWORD
     password_box.send_keys(Keys.TAB)
 
 #security code
