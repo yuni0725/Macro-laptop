@@ -1,8 +1,5 @@
 from playwright.async_api import async_playwright
 from datetime import datetime, date
-import pause
-from random import randint
-import time
 from urllib.parse import urljoin
 import asyncio
 
