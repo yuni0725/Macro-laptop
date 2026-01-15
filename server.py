@@ -5,6 +5,7 @@ if sys.platform == "win32":
     print("--> Applying Windows-specific asyncio event loop policy.")
     asyncio.set_event_loop_policy(asyncio.WindowsProactorEventLoopPolicy())
 
+
 from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
 from playwright_version import run_apply_script

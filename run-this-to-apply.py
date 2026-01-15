@@ -10,8 +10,8 @@ from playwright_version import run_apply_script
 
 async def main():
     async with async_playwright() as p:
-        # print(await run_apply_script("31203", "0725", 9, False))
-        await run_apply_script("30104", "1124", 10, False)
+        print(await run_apply_script("31203", "0725", 10, True))
+        print(await run_apply_script("30104", "1124", 9, True))
 
 
 if __name__ == "__main__":
